@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { data, timeInterval } from "./inetrface"
+import { data } from "./inetrface"
 import './App.css';
 // import logo from "./logo.svg"
 import axios from 'axios';
-import { constData } from './data';
+// import { constData } from './data';
 
 function App(props: any) {
   const [data, setData] = useState<data>(
