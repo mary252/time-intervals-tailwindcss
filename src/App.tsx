@@ -48,7 +48,7 @@ function App(props: any) {
       {loadingData ? <div>Loading</div> :
         <>
           <div className='flex justify-center my-4'>
-            <img src={logoLink} className='flex justify-content-center my-2' />
+            <img src={logoLink} alt="" className='flex justify-content-center my-2' />
 
           </div>
           <div className="grid grid-cols-2 gap-4">
