@@ -7,18 +7,18 @@ import { constData } from './data';
 
 function App(props: any) {
   const [data, setData] = useState<data>(
-    // {
-    //   "Meta Data": {
-    //     "1. Information": "",
-    //     "2. Symbol": "",
-    //     "3. Last Refreshed": "",
-    //     "4. Interval":"",
-    //     "5. Output Size": "",
-    //     "6. Time Zone": ""
-    //   },
-    //   "Time Series (5min)": {}
-    // }
-    constData
+    {
+      "Meta Data": {
+        "1. Information": "",
+        "2. Symbol": "",
+        "3. Last Refreshed": "",
+        "4. Interval":"",
+        "5. Output Size": "",
+        "6. Time Zone": ""
+      },
+      "Time Series (5min)": {}
+    }
+    // constData
   )
   const [keys, setKeys] = useState<Array<string>>([])
   const [loadingData, setLoadingData] = useState(true)
@@ -28,7 +28,7 @@ function App(props: any) {
     let url = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=RIBXT3XYLI69PC0Q `
     axios.get(url).then((res) => {
       console.log(res)
-      // setData(res.data)
+      setData(res.data)
     }).catch(e => {
       console.log(e)
     })
