@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/time-app/static/css/main.9a1a97de.css",
+    "main.js": "/time-app/static/js/main.3572dc32.js",
+    "static/js/453.08b0fee8.chunk.js": "/time-app/static/js/453.08b0fee8.chunk.js",
+    "index.html": "/time-app/index.html",
+    "main.9a1a97de.css.map": "/time-app/static/css/main.9a1a97de.css.map",
+    "main.3572dc32.js.map": "/time-app/static/js/main.3572dc32.js.map",
+    "453.08b0fee8.chunk.js.map": "/time-app/static/js/453.08b0fee8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a1a97de.css",
+    "static/js/main.3572dc32.js"
+  ]
+}
